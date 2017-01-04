@@ -32,7 +32,7 @@ function get_read_sql($tbl)
             break;
         case 'tbl_states':
         default:
-            $sql = 'SELECT * FROM `'.tbl_states.'` WHERE 1';
+            $sql = 'SELECT * FROM `'.$tbl.'` WHERE 1';
             break;
             
     }
